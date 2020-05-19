@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend>Customer Details</legend>
+
+            <div class="input-group">
+                <label for="FirstName">First Name</label>
+                <input type="text" id="FirstName" name="FirstName" placeholder="George">
+            </div>
+
+            <div class="input-group">
+                <label for="LastName">Last Name</label>
+                <input type="text" id="LastName" name="LastName" placeholder="Devis">
+            </div>
+
+            <div class="input-group">
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" value="Male" name="gender">
+
+                <label for="Female">Female</label>
+                <input type="radio" id="Female" value="Female" name="gender">
+
+                <label for="Other">Other</label>
+                <input type="radio" id="Other" value="Other" name="gender">
+            </div>
+
+            <div class="input-group">
+                <span>Preferred contact method: </span>
+                <label for="Email">Email</label>
+                <input type="radio" id="Email" value="Email" name="contact">
+
+                <label for="Phone">Phone</label>
+                <input type="radio" id="Phone" value="Phone" name="contact"></span>
+            </div>
+
+            <div class="input-group">
+                <label for="EmailInput">Email</label>
+                <input type="email" id="EmailInput" name="EmailInput" placeholder="your@email.com">
+            </div>
+
+            <div class="input-group">
+                <label for="PhoneInput">Phone</label>
+                <input type="text" id="PhoneInput" name="PhoneInput" placeholder="+359885236225">
+            </div>
+
+            <div class="input-group">
+                <label for="Town">Town</label>
+                <select name="Town" id="Town">
+                    <option value="Varna" selected="selected">Varna</option>
+                    <option value="Plovdiv">Plovdiv</option>
+                    <option value="Sofia">Sofia</option>
+                    <option value="Pleven">Pleven</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="Age">Age</label>
+                <input type="number" id="Age" name="Age">
+            </div>
+
+            <div class="input-group">
+                <label for="ProgrammingLanguage">ProgrammingLanguage</label>
+                <select name="ProgrammingLanguage" id="ProgrammingLanguage">
+                    <option value=""></option>
+                    <option value="Java">Java</option>
+                    <option value="PHP">PHP</option>
+                    <option value="C#">C#</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <textarea name="MoreInfo" id="MoreInfo" cols="25" rows="6" placeholder="More information..."></textarea>
+            </div>
+
+            <div class="input-group">
+                <input type="checkbox" id="TermsAndConditions" name="TermsAndConditions">
+                <label for="TermsAndConditions">I agree the Terms and Conditions</label>
+            </div>
+
+            <div class="input-group">
+                <button>Send</button>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

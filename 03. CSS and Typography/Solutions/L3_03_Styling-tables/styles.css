@@ -1,0 +1,36 @@
+body {
+    padding: 3rem;
+    margin: 3rem;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    border: 1px solid #CCCCCC;
+}
+
+table tbody tr:nth-child(odd) td {
+    background-color: rgb(241, 241, 241);
+}
+
+table thead th {
+    background-color: #CCCCCC;
+    border-color: transparent;
+}
+
+table th,
+table td {
+    border: 1px rgb(221, 221, 221) solid;
+    padding: 0.5rem;
+}
+
+table tbody tr:hover td {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-color: transparent;
+}

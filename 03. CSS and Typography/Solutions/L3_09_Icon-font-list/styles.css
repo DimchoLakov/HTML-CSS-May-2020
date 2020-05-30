@@ -1,0 +1,12 @@
+body {
+    padding: 5rem;
+}
+
+.icons {
+    list-style-type: none;
+}
+
+
+/* .icons i::after {
+    content: '\00a0';
+} */

@@ -1,0 +1,35 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    padding: 5rem;
+}
+
+.button {
+    width: 15%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.button i::after {
+    content: '\00a0';
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.clickMe {
+    background-color: #008000;
+}
+
+.emailMe {
+    background-color: #FF8C00;
+}
+
+.clickMe a,
+.emailMe a {
+    text-decoration: none;
+    color: white;
+}

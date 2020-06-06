@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.main-content {
+    max-width: 90rem;
+    margin: 0 auto;
+    background-color: #EEE;
+    border: 1px solid black;
+    padding: 3rem;
+}
+
+.main-content ul.gallery {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.gallery li {
+    list-style: none;
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+    border: 0.4rem solid black;
+    margin: 0.5rem;
+}
+
+.gallery img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery li img {
+    width: 100%;
+    height: auto;
+    padding: 0.7rem;
+    background-color: #FFF;
+}

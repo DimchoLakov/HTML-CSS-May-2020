@@ -1,0 +1,96 @@
+@import url('./typography.css');
+body {
+    padding: 2rem;
+}
+
+.site-header {
+    margin-bottom: 2rem;
+}
+
+.site-header nav {
+    display: block;
+}
+
+.site-header nav ul li {
+    display: inline-block;
+}
+
+.site-header a {
+    text-decoration: none;
+}
+
+.site-header nav a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: black;
+    margin: 0.3rem;
+    border-radius: 0.1rem;
+    border: 1px solid black;
+    background-color: white;
+    outline: none;
+}
+
+.site-header nav a:hover,
+.site-header nav a:focus {
+    color: white;
+    background-color: black;
+}
+
+.site {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.main-content {
+    display: inline-block;
+    width: 70%;
+    padding-right: 1rem;
+}
+
+.main-sidebar {
+    display: inline-block;
+    width: 29%;
+    vertical-align: top;
+    padding-left: 1rem;
+}
+
+.main-sidebar ul li {
+    list-style: none;
+}
+
+.main-content article.post {
+    margin-bottom: 3rem;
+}
+
+.main-content p,
+.main-sidebar p {
+    margin-bottom: 0.5rem;
+}
+
+article.post img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+article.post section.image {
+    border-radius: 0.7rem;
+    overflow: hidden;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .3);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+article.post section.image::before {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+article.post section.image img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

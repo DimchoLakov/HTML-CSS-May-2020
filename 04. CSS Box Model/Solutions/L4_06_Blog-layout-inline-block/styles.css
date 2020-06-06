@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.site {
+    padding: 1.2rem 3rem;
+    color: rgb(51, 51, 51);
+}
+
+.main-content,
+.main-sidebar {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-content {
+    width: 65%;
+}
+
+.main-sidebar {
+    width: 30%;
+}
+
+.main-content article img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+}
+
+.main-content article section img {
+    width: 100%;
+    height: auto;
+}

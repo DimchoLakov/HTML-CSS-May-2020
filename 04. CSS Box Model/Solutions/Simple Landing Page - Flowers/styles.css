@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&family=Pacifico&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 16px/1.5 PT Sans, sans-serif;
+}
+
+body,
+input,
+label,
+textarea,
+select,
+option,
+table,
+form,
+button {
+    font: inherit;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'PT Serif', serif;
+    padding-bottom: 1em;
+}
+
+p,
+ul,
+ol {
+    margin-bottom: 0.5rem;
+}
+
+.site-header {
+    background-color: #F1F5F8;
+}
+
+.site-title,
+.site-nav,
+.site-nav ul li {
+    display: inline-block;
+}
+
+.site p {
+    font-size: 1.1rem;
+}
+
+p.site-title {
+    font-family: 'Pacifico', 'PT Serif';
+    font-size: 2rem;
+    color: #FF7F50;
+    margin-right: 60%;
+    margin-left: 1rem;
+    vertical-align: middle;
+}
+
+.site-nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #FF7F50;
+    margin: 0.2rem 0.3rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 0.3rem;
+}
+
+.site-nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+.site-nav ul li a::before {
+    display: inline-block;
+    content: '\f015';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.site-nav ul li:nth-child(2) a::before {
+    content: '\f500';
+}
+
+.site-nav ul li:nth-child(3) a::before {
+    content: '\f2c2';
+}
+
+.site-nav ul li:nth-child(4) a::before {
+    content: '\f781';
+}
+
+.site-nav ul li:nth-child(5) a::before {
+    content: '\f199';
+}
+
+article>section {
+    padding: 5rem 0 10rem;
+    text-align: center;
+}
+
+section.nested {
+    padding: 0;
+}
+
+.main-content section h1,
+.main-content section h2,
+.main-content section h3,
+.main-content section h4,
+.main-content section h5,
+.main-content section h6 {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.main-content section.main-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('./photo-river-mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.main-content section.main-image h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px black;
+    width: 50%;
+}
+
+.main-content section p {
+    width: 30%;
+}
+
+.main-content section h1,
+.main-content section h2,
+.main-content section h3,
+.main-content section h4,
+.main-content section h5,
+.main-content section h6,
+.main-content section p {
+    margin: 0 auto;
+    color: #FFF;
+}
+
+.main-content section.middle {
+    background-color: #FF7F50;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.main-content section.middle button {
+    margin-top: 2rem;
+    background-color: #FFF;
+    color: #FF7F50;
+    padding: 0.8rem 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: 2px solid #FFF;
+}
+
+.main-content section.middle button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #FFF;
+}
+
+.emojis {
+    text-align: center;
+}
+
+.emojis h1,
+.emojis h2,
+.emojis h3,
+.emojis h4,
+.emojis h5,
+.emojis h6 {
+    text-transform: uppercase;
+    padding: 0.8rem 0;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.emojis>section {
+    padding: 2.5rem 0;
+}
+
+.emojis ul li {
+    display: inline-block;
+    max-width: 32%;
+    list-style-type: none;
+}
+
+.emojis ul li:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+.emojis ul li img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.main-gallery {
+    background-color: rgba(255, 127, 80, 0.3);
+    padding: 3rem 0 1rem;
+}
+
+section.gallery {
+    padding: 0;
+    margin-bottom: 3em;
+}
+
+.gallery {
+    width: 82%;
+    margin: 0 auto;
+}
+
+.gallery ul li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.gallery ul li {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.gallery img {
+    padding: 1rem;
+    border: 2px solid #000;
+    background-color: #FFF;
+    border-radius: 0.2rem;
+}
+
+.gallery h1 {
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #FF7F50;
+    color: #FFF;
+    padding: 2rem 0 1.1rem;
+}
+
+footer p,
+footer ul {
+    display: inline-block;
+}
+
+footer p {
+    margin-left: 32%;
+}
+
+ul.icons {
+    margin-left: 10%;
+}
+
+ul.icons li.icon-item {
+    display: inline-block;
+    list-style-type: none;
+}
+
+ul.icons li.icon-item:not(:last-child) {
+    margin-right: 0.3rem;
+}
+
+ul.icons li.icon-item {
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #FFF;
+}
+
+ul.icons li.icon-item a {
+    display: block;
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+li.icon-item.facebook:hover {
+    color: #4267B2;
+}
+
+li.icon-item.twitter:hover {
+    color: #1DA1F2;
+}
+
+li.icon-item.github:hover {
+    color: #211F1F;
+}
+
+@media all and (max-width: 1024px) {
+    .emojis ul li {
+        max-width: 45%;
+    }
+    .gallery ul li {
+        width: 45%;
+        margin-bottom: 0.5rem;
+    }
+    footer p {
+        margin-left: 25%;
+    }
+    ul.icons {
+        margin-left: 25%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .emojis ul li {
+        max-width: 100%;
+    }
+    .gallery ul li {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    footer p {
+        margin-left: 20%;
+    }
+    ul.icons {
+        margin-left: 20%;
+    }
+}

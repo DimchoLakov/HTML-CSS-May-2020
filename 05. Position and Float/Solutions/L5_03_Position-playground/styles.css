@@ -1,0 +1,89 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.viewport {
+    height: 70vh;
+    width: 70vw;
+    position: relative;
+    margin: 0 auto;
+}
+
+.viewport:nth-child(1) {
+    background-image: linear-gradient(to right, #072c64, #005b97, #008cb7, #00bdbf, #12ebb2);
+}
+
+.viewport:nth-child(2) {
+    background-image: linear-gradient(to right, #991399, #da007d, #ff3c59, #ff7832, #ffb100);
+}
+
+.card {
+    display: block;
+    width: 14rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.media {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.media img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.media.landscape::after {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+.media.portrait::after {
+    display: block;
+    content: '';
+    padding-top: 150%;
+}
+
+.media.landscape img {
+    width: 100%;
+    height: auto;
+}
+
+.media.portrait img {
+    width: auto;
+    height: 100%;
+}
+
+.media::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 0 15px 20px inset rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}

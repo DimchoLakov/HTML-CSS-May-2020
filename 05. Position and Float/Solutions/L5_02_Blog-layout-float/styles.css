@@ -1,0 +1,140 @@
+html {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+    padding-bottom: 0.2em;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2rem 5rem;
+    background-color: #EEE;
+    max-width: 70%;
+}
+
+article {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+p.site-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.6rem;
+    display: inline-block;
+}
+
+.site-header {
+    border-bottom: 2px solid black;
+    margin-bottom: 2rem;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+img {
+    padding: 0.3rem;
+    background-color: #FFF;
+    border: 2px solid black;
+    box-shadow: 4px 4px 25px 8px rgba(0, 0, 0, 0.25);
+}
+
+img.float-right {
+    margin: 0 0 0 1.5rem;
+}
+
+img.float-left {
+    margin: 0 1.5rem 0 0;
+}
+
+blockquote {
+    width: 50%;
+    padding: 0 0 1rem 1rem;
+    border-left: 3px solid #DDD;
+    margin-left: 1rem;
+    font-family: Georgia, serif;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+blockquote p:nth-of-type(2) {
+    text-align: right;
+}
+
+.main-sidebar {
+    margin-right: 5rem;
+}
+
+.main-sidebar ul li a {
+    color: limegreen;
+}
+
+section {
+    margin-bottom: 1.5rem;
+}

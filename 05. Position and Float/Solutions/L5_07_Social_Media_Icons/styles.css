@@ -1,0 +1,61 @@
+ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 30px;
+}
+
+ul li:not(:first-child) {
+    margin-left: 1rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    display: block;
+    color: inherit;
+    padding: 1rem;
+    background-color: #DDD;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.facebook:hover {
+    color: #4267B2;
+}
+
+.twitter:hover {
+    color: #00acee;
+}
+
+.google-plus:hover {
+    color: #db4a39;
+}
+
+.linked-in:hover {
+    color: #0e76a8;
+}
+
+.instagram:hover #insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* change this to change the size*/
+}

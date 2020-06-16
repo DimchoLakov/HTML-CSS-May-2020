@@ -1,0 +1,158 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body,
+textarea,
+form,
+input,
+select,
+option,
+table,
+p {
+    font: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    max-width: 100%;
+    width: 60rem;
+    height: 34rem;
+    background-image: linear-gradient(to bottom, #2929aa, #0053ba, #0067a2, #00747b, #147c5c);
+}
+
+.clear::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.greenyellow {
+    background-color: greenyellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.color-box p {
+    float: left;
+    width: 20%;
+    padding: 0.1rem;
+}
+
+.color-box.box-top {
+    margin: 2rem 0 4rem 0;
+}
+
+.card-info {
+    position: relative;
+}
+
+.card-info img {
+    float: left;
+    margin-left: 6rem;
+    transform: rotate(-20deg);
+    border-radius: 0.1rem;
+    width: 33%;
+}
+
+.card-content {
+    float: right;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 3rem;
+    color: white;
+}
+
+.card-content h1 {
+    color: greenyellow;
+}
+
+.card-content p {
+    font-size: 1.4rem;
+}
+
+.color-box.box-content {
+    margin-top: 5rem;
+}
+
+.color-box.box-content p {
+    padding: 1.5rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.color-box.box-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

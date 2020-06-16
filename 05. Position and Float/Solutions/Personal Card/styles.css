@@ -66,7 +66,6 @@ h6 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid black;
     max-width: 100%;
     width: 60rem;
     height: 34rem;
@@ -118,7 +117,21 @@ h6 {
     margin-left: 6rem;
     transform: rotate(-20deg);
     border-radius: 0.1rem;
-    width: 33%;
+    width: 20%;
+    max-width: 25%;
+    min-width: 15%;
+}
+
+.box-content {
+    position: relative;
+}
+
+.box-content img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: -20px;
+    left: 3.4%;
 }
 
 .card-content {

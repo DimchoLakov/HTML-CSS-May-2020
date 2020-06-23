@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+body,
+form,
+input,
+textarea,
+select,
+option {
+    font: inherit;
+}
+
+span {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.container {
+    border: 1px solid black;
+    margin: 1rem;
+    max-width: 65vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.week {
+    flex: 1 0 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.week>span {
+    flex: 1 1 20%;
+}
+
+.week>span:first-child {
+    flex: 1 1 100%;
+}
+
+.week>span:nth-child(7) {
+    flex: 1 1 100%;
+}
+
+.week>span:nth-child(8),
+.week>span:nth-child(9) {
+    flex: 1 1 50%;
+}
+
+.notes {
+    flex: 1 0 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.notes span {
+    flex: 1 1 50%;
+}

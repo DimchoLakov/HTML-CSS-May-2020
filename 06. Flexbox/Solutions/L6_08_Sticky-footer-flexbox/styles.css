@@ -1,0 +1,103 @@
+html {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+form,
+input,
+textarea,
+select,
+option {
+    font: inherit;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+header,
+main,
+footer {
+    padding: 1rem 2rem;
+}
+
+main {
+    flex-grow: 1;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    padding-top: 1rem;
+}
+
+footer p {
+    margin: 0;
+}

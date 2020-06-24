@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body,
+form,
+input,
+textarea,
+select,
+option {
+    font: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #EEE;
+}
+
+.gallery {
+    max-width: 60vw;
+}
+
+.gallery ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.gallery ul li {
+    flex-basis: 30%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 9px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #FFF;
+}

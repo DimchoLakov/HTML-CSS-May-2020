@@ -1,0 +1,133 @@
+html {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+form,
+input,
+textarea,
+select,
+option {
+    font: inherit;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    max-width: 60vw;
+    margin: 2rem auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.cards-layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #FFF;
+    margin-bottom: 1rem;
+}
+
+.card-media {
+    margin-bottom: 0.4rem;
+}
+
+.card-media img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body,
+.card-footer {
+    padding: 1rem;
+}
+
+.card-footer {
+    border-top: 1px solid black;
+}
+
+.card-title {
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.masonry {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    height: 120rem;
+}
+
+.masonry .card {
+    width: 30%;
+}
+
+.masonry .card:nth-child(3n+1) {
+    order: 1;
+}
+
+.masonry .card:nth-child(3n+2) {
+    order: 2;
+}
+
+.masonry .card:nth-child(3n) {
+    order: 3;
+}
+
+.masonry::before,
+.masonry::after {
+    content: "";
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
+}
+
+.flex {
+    justify-content: space-between;
+}
+
+.flex::after,
+.flex .card {
+    display: block;
+    content: '';
+    flex: 0 0 30%;
+}
+
+.flex .card {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-content: flex-end;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+.flex .card .card-body {
+    flex-grow: 1;
+}

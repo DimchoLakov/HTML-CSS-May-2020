@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 2rem;
+}
+
+@media(min-width: 600px) {
+    .mq-width span:first-child::after {
+        display: inline-block;
+        content: 'Viewport width is larger than 600px';
+        color: green;
+    }
+}
+
+@media(min-height: 600px) {
+    .mq-height span:first-child::after {
+        display: inline;
+        content: 'Viewport height is larger than 600px';
+        color: green;
+    }
+}
+
+@media(min-aspect-ratio: 8/5) {
+    .mq-ar span:first-child::after {
+        display: inline;
+        content: 'Aspect Ration is larger than 8/5';
+        color: green;
+    }
+}

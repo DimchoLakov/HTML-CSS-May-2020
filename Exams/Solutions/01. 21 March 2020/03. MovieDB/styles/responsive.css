@@ -1,0 +1,34 @@
+/* * **width <= 768x**
+    * **width <= 414px**
+    
+     */
+
+@media (max-width: 768px) {
+    .main-movie-poster {
+        display: none;
+    }
+    .main-movie ul {
+        overflow: hidden;
+        padding-top: 56.25%;
+        position: relative;
+    }
+    .main-movie-trailer iframe {
+        border: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    .main-movie ul {
+        width: 100%;
+    }
+    .movie-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

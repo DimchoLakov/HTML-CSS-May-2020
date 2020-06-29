@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.media {
+    position: relative;
+    overflow: hidden;
+}
+
+.media::before {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+.media img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

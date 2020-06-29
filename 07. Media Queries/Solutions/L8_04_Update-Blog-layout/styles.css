@@ -1,0 +1,153 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2rem 5rem;
+    background-color: #EEE;
+    max-width: 95%;
+}
+
+article {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #4285F4;
+}
+
+.site-header {
+    border-bottom: 2px solid black;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding-bottom: 1.8rem;
+    flex-grow: 1;
+}
+
+.site-header,
+.site-nav ul {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.site-nav {
+    background-color: #FFF;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-left: auto;
+}
+
+.site-nav ul li {
+    list-style: none outside;
+    display: flex;
+    margin: 0 0.5rem;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.site-nav ul li a {
+    padding: 0.5rem 1.8rem;
+    color: #FFF;
+    background-color: #000;
+    border-radius: 0.5rem;
+    display: block;
+}
+
+#menu {
+    display: none;
+}
+
+#nav-toggle {
+    display: none;
+    align-self: center;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+img {
+    padding: 0.3rem;
+    background-color: #FFF;
+    border: 2px solid black;
+    box-shadow: 4px 4px 25px 8px rgba(0, 0, 0, 0.25);
+}
+
+img.float-right {
+    margin: 0 0 0 1.5rem;
+}
+
+img.float-left {
+    margin: 0 1.5rem 0 0;
+}
+
+blockquote {
+    width: 50%;
+    padding: 0 0 1rem 1rem;
+    border-left: 3px solid #DDD;
+    margin-left: 1rem;
+    font-family: Georgia, serif;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+blockquote p:nth-of-type(2) {
+    text-align: right;
+}
+
+.main-sidebar ul li a {
+    color: rgb(0, 153, 0);
+}
+
+section {
+    margin-bottom: 1.5rem;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.site-header {
+    flex-basis: 100%;
+}
+
+.main-content {
+    flex-basis: 65%;
+}
+
+.main-sidebar {
+    flex-basis: 25%;
+    margin-left: 1rem;
+}

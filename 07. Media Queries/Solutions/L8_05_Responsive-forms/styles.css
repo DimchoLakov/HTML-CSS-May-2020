@@ -1,0 +1,98 @@
+    @import url('./reset.css');
+    @import url('./typography.css');
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    fieldset {
+        flex-basis: 30%;
+        background-color: #F8F8F8;
+        padding: 2rem;
+        box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.75);
+    }
+    
+    form button {
+        background-color: #000;
+        color: #FFF;
+        border: 1px solid #000;
+        padding: 0.5rem 2rem;
+        border-radius: 0.2rem;
+    }
+    
+    form button:hover {
+        color: #000;
+        background-color: #FFF;
+        cursor: pointer;
+        transition: 0.2s ease-in;
+    }
+    
+    legend {
+        border: 2px solid grey;
+        border-radius: 0.2em;
+        padding: 0.6em 8em 0.6em 0.6em;
+        background-color: #FFF;
+        box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.75);
+    }
+    
+    .input-group {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+    
+    .input-group label,
+    .input-group button,
+    legend {
+        font-weight: bold;
+    }
+    
+    .icon {
+        padding: 10px;
+        min-width: 40px;
+    }
+    
+    .input-group input {
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+    }
+    
+    .input-wrapper {
+        position: relative;
+        flex-basis: 75%;
+        margin-left: auto;
+        padding: 0.2rem;
+    }
+    
+    .input-wrapper>span {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        cursor: auto;
+    }
+    
+    .input-wrapper input {
+        position: relative;
+        width: 100%;
+        padding: 0.2rem;
+    }
+    
+    .input-wrapper input:focus {
+        z-index: 1;
+    }
+    
+    @media screen and (max-width: 700px) {
+        div.input-group {
+            flex-wrap: wrap;
+        }
+        div.input-group label {
+            flex-basis: 100%;
+            padding: 0.2em;
+        }
+        div.input-wrapper {
+            flex-basis: 100%;
+        }
+    }

@@ -1,0 +1,80 @@
+.users-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.users-list li {
+    list-style: none outside;
+    flex-basis: 30%;
+    display: block;
+    text-align: center;
+}
+
+.users-list li span {
+    display: block;
+}
+
+.users-list .user {
+    margin-bottom: 5em;
+}
+
+.users-list .user-position+.user-info,
+.users-list .user-info+.user-name {
+    padding-top: 2em;
+}
+
+.user-avatar {
+    margin-bottom: 2em;
+}
+
+.user-avatar {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 7rem;
+    margin: 0 auto 1em auto;
+    box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.user-avatar::before,
+.user-avatar::after {
+    display: block;
+    content: '';
+}
+
+.user-avatar::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1) inset;
+    z-index: 10;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.user-avatar::after {
+    padding-top: 100%;
+}
+
+.user-avatar img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.user-info {
+    font-style: italic;
+}

@@ -1,0 +1,88 @@
+html {
+    font: 16px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+body,
+form,
+input,
+textarea,
+select,
+option,
+table,
+button {
+    font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 12px;
+    }
+    section.section.section-cta i {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+    section.section.section-cta i {
+        font-size: 7rem;
+    }
+}
+
+@media (min-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+    section.section.section-cta i {
+        font-size: 10rem;
+    }
+}
+
+@media (min-width: 900px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 2000px) {
+    html {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,82 @@
+    html {
+        font: 16px/1.5 Helvetica, Verdana, sans-serif;
+    }
+    
+    body,
+    form,
+    input,
+    textarea,
+    select,
+    option,
+    table,
+    button {
+        font: inherit;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Georgia, serif;
+        line-height: 1.2;
+        font-weight: normal;
+    }
+    
+    h1 {
+        font-size: 2.4em;
+    }
+    
+    h2 {
+        font-size: 2em;
+    }
+    
+    h3 {
+        font-size: 1.6em;
+    }
+    
+    h4 {
+        font-size: 1.4em;
+    }
+    
+    h5 {
+        font-size: 1.2em;
+    }
+    
+    h6 {
+        font-size: 1em;
+    }
+    
+    @media (min-width:320px) {
+        html {
+            font-size: 12px;
+        }
+    }
+    
+    @media (min-width:641px) {
+        /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+        html {
+            font-size: 14px;
+        }
+    }
+    
+    @media (min-width:961px) {
+        /* tablet, landscape iPad, lo-res laptops ands desktops */
+        html {
+            font-size: 16px;
+        }
+    }
+    
+    @media (min-width:1025px) {
+        /* big landscape tablets, laptops, and desktops */
+        html {
+            font-size: 18px;
+        }
+    }
+    
+    @media (min-width:2000px) {
+        html {
+            font-size: 20px;
+        }
+    }

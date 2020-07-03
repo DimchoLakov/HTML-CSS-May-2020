@@ -1,0 +1,42 @@
+.header-wrapper {
+    background: url('./images/map.jpg') no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: transparent;
+}
+
+.site-logo img {
+    width: auto;
+    height: 3rem;
+}
+
+.search-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-nav a,
+.site-nav button {
+    padding: 1em;
+    color: #C9C9C9;
+}
+
+.site-nav a:hover,
+.site-nav button:hover {
+    color: white;
+}

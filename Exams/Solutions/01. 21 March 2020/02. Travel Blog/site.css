@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;700&display=swap');
+@import url('./reset.css');
+@import url('./typography.css');
+@import url('./navigation.css');
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.site-header {
+    flex-basis: 100%;
+}
+
+.section-cta {
+    margin-top: 2em;
+}
+
+.section-cta .section-header h1 {
+    color: white;
+    font-size: 4.5rem;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 1);
+}
+
+.section-cta .section-content {
+    display: flex;
+    justify-content: center;
+}
+
+.section-cta .section-content a {
+    display: block;
+}
+
+.btn {
+    color: white;
+    background-color: #146594;
+    padding: 0.5em 0.6em;
+    border-radius: 0.4em;
+    font-size: 1.2rem;
+}
+
+.main-content {
+    background-color: #E1E1E1;
+}
+
+.section-articles {
+    max-width: 62%;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.section-articles .section-header {
+    color: #53595C;
+}
+
+.section-articles .section-header h1,
+.section-articles .section-header h2,
+.section-articles .section-header h3 {
+    padding-bottom: 1em;
+}
+
+.section-articles .section-content {
+    display: flex;
+}
+
+.section-articles .section-content h1,
+.section-articles .section-content h2,
+.section-articles .section-content h3 {
+    color: white;
+    font-weight: normal;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.packing {
+    flex-basis: 40%;
+    background: url('./images/packing.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 68vh;
+}
+
+.packing h2 {
+    position: relative;
+    top: 10%;
+    left: 25%;
+    transform: translate(-10%, -25%);
+}
+
+.planning {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.planning .media {
+    flex-basis: 100%;
+}
+
+.planning .media:nth-child(1) {
+    background: url('./images/planning.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.planning .media:nth-child(1) h2 {
+    text-align: center;
+}
+
+.planning .media:nth-child(2) {
+    background: url('./images/budget.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.planning .media:nth-child(2) h2 {
+    position: relative;
+    left: 1.5%;
+    bottom: -80%;
+}
+
+.site-footer {
+    background-color: #8C8C8C;
+}
+
+.widget-wrapper {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 2em 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.widget-wrapper .widget {
+    flex-grow: 1;
+}
+
+.widget-wrapper .widget:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.widget a {
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #C9C9C9;
+}
+
+.widget ul {
+    display: flex;
+    justify-content: center;
+}
+
+.widget ul li {
+    list-style: none outside;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    color: #C9C9C9;
+}
+
+.widget ul li:not(:last-child) {
+    border-right: 1px solid #C9C9C9;
+}

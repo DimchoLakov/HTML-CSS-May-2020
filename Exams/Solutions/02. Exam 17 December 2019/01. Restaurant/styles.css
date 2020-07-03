@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap');
+@import url('./reset.css');
+@import url('./typography.css');
+body {
+    background-color: #FFDDB9;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.booking {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 0.8em;
+    width: 65vw;
+    background-color: #111111;
+    margin: 3em 0;
+}
+
+.media {
+    flex-basis: 63%;
+    display: flex;
+    background-color: orangered;
+}
+
+.booking-form-wrapper {
+    flex-basis: 37%;
+}
+
+.booking-form-wrapper h1,
+.booking-form-wrapper h2,
+.booking-form-wrapper h3,
+.booking-form-wrapper h4 {
+    text-align: center;
+    color: white;
+    margin: 3em 0;
+}
+
+.booking-form-wrapper form {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+.booking-form-wrapper form input {
+    background-color: #111111;
+    border: none;
+    border-bottom: 1px solid #BDBBB9;
+    color: #BDBBB9;
+    font-weight: bold;
+    margin-bottom: 2em;
+    padding: 0.4em 0;
+}
+
+.booking-form-wrapper form input:hover::placeholder {
+    color: #EDB77D;
+}
+
+.booking-form-wrapper form input:hover,
+.booking-form-wrapper form input:focus {
+    border-bottom: 1px solid #EDB77D;
+}
+
+.booking-form-wrapper form button {
+    max-width: 50%;
+    background-color: #EDB77D;
+    color: white;
+    border: 2px solid #EDB77D;
+    border-radius: 0.3em;
+    font-weight: bold;
+    padding: 0.8em;
+}
+
+.booking-form-wrapper form button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #EDB77D;
+}

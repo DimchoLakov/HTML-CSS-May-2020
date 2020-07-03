@@ -1,0 +1,30 @@
+@media(max-width: 1236px) {
+    .big_article:nth-child(1) {
+        margin-bottom: 0;
+    }
+    main ul li.row_articles {
+        display: initial;
+    }
+    li.big_article .article {
+        width: 15em;
+        height: 16em;
+    }
+    li.big_article .article .article_text {
+        margin-top: 15px;
+    }
+    li.big_article .article .article_text h3 {
+        font-size: inherit;
+    }
+}
+
+@media(max-width: 768px) {
+    main,
+    main ul,
+    main ul li,
+    main ul li.row_articles,
+    main ul li.big_article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

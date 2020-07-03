@@ -45,3 +45,15 @@ h5 {
 h6 {
     font-size: 1.2em;
 }
+
+@media(max-width: 1024px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 650px) {
+    html {
+        font-size: 12px;
+    }
+}

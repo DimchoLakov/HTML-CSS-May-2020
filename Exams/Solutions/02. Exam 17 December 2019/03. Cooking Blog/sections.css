@@ -1,0 +1,139 @@
+.section {
+    padding: 2em 0;
+}
+
+.section.section-cta {
+    background: url('./Media/craving.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    height: 55vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.section-cta .wrapper {
+    margin-top: 5em;
+}
+
+.section-cta .section-header h1,
+.section-cta .section-header h2,
+.section-cta .section-header h3 {
+    color: white;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.section-cta .section-content {
+    margin-top: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-cta .section-content label {
+    display: flex;
+    color: #554938;
+    font-size: 1.2em;
+    position: absolute;
+    left: 10%;
+    z-index: 1;
+}
+
+.section-cta .section-content input {
+    flex-basis: 83%;
+    opacity: 0.7;
+    border: none;
+    padding: 0.25em 0;
+    text-indent: 1.8em;
+    color: #554938;
+    font-size: 1.2em;
+}
+
+.section-favorites .section-content,
+.section-tutorial .section-content {
+    display: flex;
+    align-items: stretch;
+}
+
+.section-favorites .section-content .media-description,
+.section-tutorial .section-content .media-description {
+    flex-basis: 40%;
+}
+
+.section-favorites .section-content .media,
+.section-tutorial .section-content .media {
+    flex-basis: 60%;
+    display: flex;
+}
+
+.media-description {
+    background-color: #E6E3DE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2em;
+}
+
+.media-description h4 {
+    margin-bottom: 1em;
+}
+
+.media-description button {
+    align-self: center;
+    padding: 0.5em 1em;
+    background-color: #554938;
+    border: 1px solid #554938;
+    color: white;
+}
+
+.section-cookie-toolbox .section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-cookie-toolbox .section-content h1,
+.section-cookie-toolbox .section-content h2,
+.section-cookie-toolbox .section-content h3,
+.section-cookie-toolbox .section-content h4 {
+    text-align: center;
+    background-color: #E6E3DE;
+    color: #554938;
+    padding: 0.5em 1.5em;
+}
+
+.section-cookie-toolbox .section-content button {
+    flex-basis: 20%;
+}
+
+.section-cookie-toolbox .toolbox-content {
+    display: flex;
+    flex-basis: 100%;
+    padding: 1em 2em;
+    margin: 0.1em 2em 1em;
+}
+
+.section-cookie-toolbox .toolbox-content .box {
+    flex-basis: 27%;
+    text-align: center;
+    font-style: italic;
+    color: #554938;
+    background-color: #E6E3DE;
+}
+
+.section-cookie-toolbox .toolbox-content .box h1,
+.section-cookie-toolbox .toolbox-content .box h2,
+.section-cookie-toolbox .toolbox-content .box h3,
+.section-cookie-toolbox .toolbox-content .box h4,
+.section-cookie-toolbox .toolbox-content .box h5,
+.section-cookie-toolbox .toolbox-content .box h6 {
+    padding: 0.7em 0.3em;
+}
+
+.section-cookie-toolbox .toolbox-content .box:not(:last-child) {
+    margin-right: 1em;
+}

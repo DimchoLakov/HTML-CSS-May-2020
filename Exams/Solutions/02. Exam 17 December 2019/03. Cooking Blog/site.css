@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;700&display=swap');
+@import url('./reset.css');
+@import url('./typography.css');
+@import url('./navigation.css');
+@import url('./sections.css');
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.main-content {
+    background: url('./Media/background.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.site-footer {
+    background-color: #E6E3DE;
+    opacity: 0.9;
+    padding: 2em 0;
+}
+
+.site-footer .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.widget {
+    margin-bottom: 0.1em;
+}
+
+.widget .widget-content ul {
+    display: flex;
+}
+
+.widget .widget-content ul li {
+    list-style: none outside;
+}
+
+.widget .widget-content ul li:not(:last-child) a {
+    border-right: thin solid #362e24;
+}
+
+.widget .widget-content li:not(:first-child):not(:last-child) a {
+    padding: 0 1em;
+}
+
+.widget .widget-content li:first-child a {
+    padding-right: 1em;
+}
+
+.widget .widget-content li:last-child a {
+    padding-left: 1em;
+}
+
+.widget .widget-content a {
+    display: block;
+    color: #362e24;
+}
+
+.btn {
+    padding: 0.5em 1em;
+    background-color: #554938;
+    border: 1px solid #554938;
+    color: white;
+    border-radius: 0.1em;
+}
+
+.btn:hover,
+.btn:focus {
+    cursor: pointer;
+    background-color: #E6E3DE;
+    color: #554938;
+}
+
+.btn:focus {
+    text-decoration: underline;
+}
+
+.btn-shop-now {
+    background-color: #D94B33;
+    color: white;
+    border: 1px solid #D94B33;
+}
+
+.btn-shop-now:hover,
+.btn-shop-now:focus {
+    color: #D94B33;
+}

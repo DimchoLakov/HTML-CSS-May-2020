@@ -1,0 +1,71 @@
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&family=Montserrat&display=swap');
+    @import url('./reset.css');
+    @import url('./typography.css');
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 1em;
+        font-weight: normal;
+    }
+    
+    .box-wrapper {
+        background-color: #306085;
+        position: relative;
+        max-width: 90rem;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .box {
+        display: flex;
+        padding: 3em 7em 4em;
+    }
+    
+    .box-info {
+        color: white;
+        padding-right: 2em;
+    }
+    
+    .box-info p:last-child {
+        font-style: italic;
+        font-weight: 100;
+        font-size: small;
+        opacity: 0.6;
+    }
+    
+    .media {
+        position: relative;
+        z-index: 5;
+    }
+    
+    .media:not(:last-child) {
+        margin-right: 1.2em;
+    }
+    
+    .first-dots img {
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .second-dots img {
+        position: absolute;
+        top: 1em;
+        right: 26em;
+    }
+    
+    .third-dots img {
+        position: absolute;
+        top: 1em;
+        right: 21.5em;
+    }
+    
+    .arrow {
+        position: absolute;
+        top: 2rem;
+        right: 6em;
+        font-size: 0.5em;
+    }

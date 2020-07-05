@@ -1,0 +1,99 @@
+.section {
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+
+.section .section-content {
+    display: flex;
+}
+
+.section .section-content p {
+    margin-bottom: 1em;
+}
+
+.section .section-content p.small {
+    font-style: italic;
+    font-size: small;
+    margin-bottom: 0.4em;
+}
+
+.section-diplomas {
+    padding-top: 5em;
+    padding-bottom: 4em;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-diplomas .media {
+    position: relative;
+    z-index: 5;
+}
+
+.section-diplomas .awards {
+    position: absolute;
+    top: -2em;
+    right: 3em;
+    z-index: 0;
+}
+
+.section-diplomas .awards img {
+    filter: invert(72%) sepia(118%) saturate(300%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+
+.section-diplomas .section-content .description {
+    padding-right: 5em;
+}
+
+.section-certificates {
+    background-color: #14162B;
+    padding: 6em 1em 2em 0;
+}
+
+.section .section-content h1,
+.section .section-content h2,
+.section .section-content h3,
+.section .section-content h4,
+.section .section-content p.small {
+    color: #54546D;
+    margin-bottom: 1em;
+}
+
+.section.section-certificates .section-content,
+.section.section-certificates .section-content h1,
+.section.section-certificates .section-content h2,
+.section.section-certificates .section-content h3,
+.section.section-certificates .section-content h4 {
+    color: white
+}
+
+.section.section-certificates .section-content {
+    display: flex;
+}
+
+.section-certificates .section-content .media {
+    margin-left: 8em;
+    position: relative;
+    bottom: -5em;
+}
+
+.section-certificates .section-content .description {
+    flex-basis: 60%;
+}
+
+.section-career {
+    margin-top: 2em;
+    margin-bottom: 0;
+    padding-bottom: 4em;
+}
+
+.section-career .section-content {
+    display: flex;
+}
+
+.section-career .section-content p {
+    margin-bottom: 3em;
+}
+
+.section-career .section-content .description {
+    padding-left: 2em;
+}

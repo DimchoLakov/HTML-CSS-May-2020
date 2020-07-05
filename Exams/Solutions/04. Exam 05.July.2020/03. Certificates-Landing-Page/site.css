@@ -1,0 +1,121 @@
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+    @import url('./reset.css');
+    @import url('./typography.css');
+    @import url('./navigation.css');
+    @import url('./sections.css');
+    a {
+        text-decoration: none;
+    }
+    
+    a:focus,
+    button:focus {
+        text-decoration: underline;
+    }
+    
+    .wrapper {
+        max-width: 100rem;
+        margin: 0 auto;
+        padding: 0.3em 3em;
+    }
+    
+    .site-header .wrapper,
+    .section-diplomas .wrapper {
+        padding-left: 4em;
+    }
+    
+    main {
+        box-shadow: inset 0px 2px 10px -2px rgba(110, 110, 110, 1);
+    }
+    
+    .btn {
+        background-color: #9A5DC6;
+        border: 1px solid #9A5DC6;
+        color: white;
+        padding: 0.3rem 1.2rem;
+        border-radius: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .btn:hover {
+        cursor: pointer;
+        background-color: white;
+        color: #9A5DC6;
+    }
+    
+    .btn-outline-light {
+        background-color: white;
+        color: #9A5DC6;
+        padding: 0.8rem 1.2rem;
+    }
+    
+    .btn-outline-light:hover {
+        background-color: #9A5DC6;
+        color: white;
+    }
+    
+    .site-footer {
+        background-color: #2D2C3A;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    
+    .site-footer h1,
+    .site-footer h2,
+    .site-footer h3,
+    .site-footer h4,
+    .site-footer h5,
+    .site-footer h6 {
+        color: #9A5DC6;
+        padding-bottom: 0.5em;
+    }
+    
+    .site-footer a,
+    .site-footer p {
+        color: white;
+    }
+    
+    .site-footer .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .widget {
+        flex-basis: 23%;
+    }
+    
+    .widget .widget-content ul {
+        padding-bottom: 1em;
+    }
+    
+    .widget .widget-content ul li {
+        list-style: none outside;
+        margin: 0.17em 0;
+    }
+    
+    .widget .widget-content ul li a {
+        padding: 0.15em 0;
+    }
+    
+    .widget-icons .widget-content ul.icons {
+        display: flex;
+        padding-bottom: 0;
+    }
+    
+    .widget-icons .widget-content ul.icons li {
+        margin-top: 0;
+    }
+    
+    .widget-icons .widget-content ul.icons li:not(:last-child) {
+        margin-right: 0.2em;
+    }
+    
+    .widget-icons .widget-content ul.icons li a {
+        display: block;
+        padding-bottom: 1em;
+        padding-right: 1em;
+    }
+    
+    .widget .widget-content .icons {
+        font-size: 1.5rem;
+    }

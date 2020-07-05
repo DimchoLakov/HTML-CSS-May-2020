@@ -1,0 +1,8 @@
+@media (max-width: 884px) {
+    main {
+        padding: 0.5em 1.5em 1.5em;
+    }
+    .newsletter-boxes {
+        flex-direction: column;
+    }
+}

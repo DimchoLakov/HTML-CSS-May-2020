@@ -1,0 +1,38 @@
+.site-header {
+    padding-bottom: 1em;
+}
+
+.site-header .wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav {
+    margin-left: auto;
+}
+
+.site-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-nav li {
+    list-style: none outside;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.2em;
+}
+
+.site-nav li:not(:last-child) {
+    margin-right: 0.3em;
+}
+
+.site-nav ul a {
+    display: block;
+    padding: 1em;
+    color: #203235;
+}
+
+.site-nav ul a:hover {
+    color: #9A5DC6;
+}
